@@ -1,0 +1,25 @@
+server:
+  port: 9080
+
+spring:
+  application:
+    name: Registration-Service
+    confirmation-token-expiry-in-minutes: 15
+  datasource:
+    url: jdbc:postgresql://localhost:5432/registeration_service_db
+    data-password: Password12
+    data-username: appUser
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  queues:
+    queue: CONFIRMATION_EMAIL_QUEUE
+    exchange: CONFIRMATION_EMAIL_EXCHANGE
+
+#    properties:
+
+
+
