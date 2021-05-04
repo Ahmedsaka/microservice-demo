@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  twitter-tokafka-service:
+    image: ${GROUP_ID}/twitter-tokafka-service/${SERVICE_VERSION:-latest}
+    ports:
+       - "5005:500"
+    volumes:
+      - "./docker-logs/ : /workspace/twitter-tokafka-service/logs"
+    environment:
+      - ""
+    networks:
+      - ${GLOBAL_NETWORK:-services}

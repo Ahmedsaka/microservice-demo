@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-    <property name="DEV_HOME" value="./twitter-toKafka-service/logs"/>
-    <property name="APP_NAME" value="/twitter-toKafka-service"/>
+<configuration >
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
@@ -22,7 +20,7 @@
         </file>
     </appender>
 
-    <logger name="microservice.demo" level="info" additivity="false">
+    <logger name="io.medalytics.microservice.demo" level="info" additivity="false">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </logger>
