@@ -44,3 +44,6 @@ kafka-producer-config:
 logging:
   config: classpath:logback-spring.xml
 
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888/

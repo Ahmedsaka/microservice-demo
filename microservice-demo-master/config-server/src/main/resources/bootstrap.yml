@@ -5,6 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: file://Users/ahmed.saka/Documents/microservice-demo-master/config-server-repository
+          uri: file://Users/ahmed.saka/Documents/microservice-demo-master/config-server-repository/
           clone-on-start: true
+        bootstrap: true
     fail-fast: true

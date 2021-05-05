@@ -1,0 +1,213 @@
+10:28:13.475 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:93 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][rollingPolicy][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:30 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][triggeringPolicy][maxFileSize]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at io.medalytics.microservice.demo.server.ConfigServer.main(ConfigServer.java:11)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:93 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][rollingPolicy][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:30 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][triggeringPolicy][maxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+10:29:36.336 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:93 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][rollingPolicy][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:30 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][triggeringPolicy][maxFileSize]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at io.medalytics.microservice.demo.server.ConfigServer.main(ConfigServer.java:11)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:93 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][rollingPolicy][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:30 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][triggeringPolicy][maxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 18 common frames omitted
+10:31:50.133 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+10:31:50.228 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 16704 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+10:31:50.243 [main] INFO  i.m.m.demo.server.ConfigServer - No active profile set, falling back to default profiles: default
+10:31:58.199 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a6d2fb1d-b4b6-3f23-80eb-ab1437f62d58
+10:31:59.085 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+10:31:59.109 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+10:31:59.110 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:31:59.111 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+10:31:59.391 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:31:59.392 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8939 ms
+10:32:00.173 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:32:00.866 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configServerHealthIndicator' defined in class path resource [org/springframework/cloud/config/server/config/EnvironmentRepositoryConfiguration.class]: Unsatisfied dependency expressed through method 'configServerHealthIndicator' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.config.server.config.CompositeConfiguration': Unsatisfied dependency expressed through method 'setEnvironmentRepos' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: You need to configure a uri for the git repository.
+10:32:00.868 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10:32:00.877 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:32:00.932 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:32:00.970 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you are using a native profile and have spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+10:37:30.238 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 16746 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+10:37:30.239 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+10:37:30.250 [main] INFO  i.m.m.demo.server.ConfigServer - No active profile set, falling back to default profiles: default
+10:37:35.550 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a6d2fb1d-b4b6-3f23-80eb-ab1437f62d58
+10:37:36.452 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+10:37:36.469 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+10:37:36.470 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:37:36.470 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+10:37:36.781 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:37:36.782 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6399 ms
+10:37:37.570 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:37:38.191 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configServerHealthIndicator' defined in class path resource [org/springframework/cloud/config/server/config/EnvironmentRepositoryConfiguration.class]: Unsatisfied dependency expressed through method 'configServerHealthIndicator' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.config.server.config.CompositeConfiguration': Unsatisfied dependency expressed through method 'setEnvironmentRepos' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: You need to configure a uri for the git repository.
+10:37:38.192 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10:37:38.198 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:37:38.225 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:37:38.267 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you are using a native profile and have spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+10:38:39.808 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+10:38:39.867 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 16758 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+10:38:39.871 [main] INFO  i.m.m.demo.server.ConfigServer - No active profile set, falling back to default profiles: default
+10:38:44.941 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a6d2fb1d-b4b6-3f23-80eb-ab1437f62d58
+10:38:46.714 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+10:38:46.740 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+10:38:46.741 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:38:46.742 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+10:38:47.197 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:38:47.198 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7074 ms
+10:38:48.862 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:38:49.766 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configServerHealthIndicator' defined in class path resource [org/springframework/cloud/config/server/config/EnvironmentRepositoryConfiguration.class]: Unsatisfied dependency expressed through method 'configServerHealthIndicator' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.config.server.config.CompositeConfiguration': Unsatisfied dependency expressed through method 'setEnvironmentRepos' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: You need to configure a uri for the git repository.
+10:38:49.768 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10:38:49.775 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:38:49.811 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:38:49.844 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you are using a native profile and have spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+10:41:13.096 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+10:41:13.118 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 16785 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+10:41:13.120 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: native
+10:41:17.589 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f7713404-3bcd-34c5-af70-8ee0f97428d4
+10:41:18.608 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+10:41:18.638 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+10:41:18.639 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:41:18.640 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+10:41:19.378 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:41:19.378 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6133 ms
+10:41:20.675 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:41:21.973 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+10:41:22.033 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+10:41:22.067 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+10:41:22.103 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 10.741 seconds (JVM running for 12.11)
+10:47:08.501 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10:47:14.034 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+10:47:14.173 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 16834 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+10:47:14.176 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: native
+10:47:18.546 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f7713404-3bcd-34c5-af70-8ee0f97428d4
+10:47:19.783 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+10:47:19.805 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+10:47:19.806 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:47:19.807 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+10:47:20.178 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:47:20.178 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5862 ms
+10:47:20.924 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:47:22.028 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+10:47:22.076 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+10:47:22.107 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+10:47:22.152 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 9.667 seconds (JVM running for 11.152)
+10:59:47.241 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:59:47.242 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:59:47.259 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+11:18:53.769 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:26:54.141 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:26:59.610 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+11:26:59.805 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 17067 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+11:26:59.807 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: native
+11:27:02.784 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f7713404-3bcd-34c5-af70-8ee0f97428d4
+11:27:03.538 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+11:27:03.567 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+11:27:03.568 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:27:03.569 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+11:27:04.024 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:27:04.024 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4083 ms
+11:27:05.393 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:27:07.576 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:27:07.674 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+11:27:07.745 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+11:27:07.823 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 10.087 seconds (JVM running for 11.714)
+11:27:51.315 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:27:51.316 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:27:51.318 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11:27:51.413 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:29:37.449 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'

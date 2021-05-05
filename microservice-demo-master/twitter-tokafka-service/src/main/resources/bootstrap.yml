@@ -1,0 +1,11 @@
+#this config is for twitter to kafka microservice to fetch configurations from config-server
+
+spring:
+  application:
+    name: twitter_tokafka_service
+  profiles:
+    active: twitter_tokafka
+  cloud:
+    config:
+      name: twitter_to_kafka,config-client
+      uri: http://localhost:8888
