@@ -2,7 +2,7 @@
 
 spring:
   application:
-    name: twitter_tokafka_service
+    name: twitter_to_kafka
   profiles:
     active: twitter_tokafka
   cloud:
@@ -10,4 +10,5 @@ spring:
       name: twitter_to_kafka,config-client
       uri: http://localhost:8888
     username: admin
-    password: password
+    password: ENC(l7R3uUSG3Mk2uKJAy8u4oFYc1shqpKYr4ZwLl2GpnJfp+1Yad2E4dXq+dzqtsAkp)
+

@@ -325,3 +325,156 @@ If you are using the git profile, you need to set a Git URI in your configuratio
 12:22:06.987 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
 12:22:09.441 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
 12:22:10.114 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:53:24.700 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:53:52.313 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+12:53:52.414 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 23098 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+12:53:52.421 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: twitter_tokafka,native
+12:53:55.517 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=38b66a2b-6dc5-3c21-9217-ba3f08f31a4f
+12:53:56.174 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+12:53:56.193 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+12:53:56.194 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:53:56.194 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+12:53:56.441 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:53:56.442 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3901 ms
+12:53:57.305 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:53:57.789 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5cd0dc4b-c605-4933-a5f6-fac2cac447fe
+
+12:53:57.947 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ae3235e, org.springframework.security.web.context.SecurityContextPersistenceFilter@59e082f8, org.springframework.security.web.header.HeaderWriterFilter@2bdb5e0f, org.springframework.security.web.csrf.CsrfFilter@734fbae3, org.springframework.security.web.authentication.logout.LogoutFilter@349f0ca4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1736c1e4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@66f2ec1c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46b6701e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@9d99851, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44d43cc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ed25612, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3686389, org.springframework.security.web.session.SessionManagementFilter@2262f0d8, org.springframework.security.web.access.ExceptionTranslationFilter@3a588b5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44fb6ebd]
+12:53:58.499 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+12:53:58.529 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+12:53:58.554 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+12:53:58.583 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 7.682 seconds (JVM running for 8.727)
+12:54:15.608 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:54:15.608 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:54:15.610 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+13:34:27.222 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+13:34:33.563 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+13:34:45.210 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+13:35:56.282 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:36:01.086 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+13:36:01.142 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 23488 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+13:36:01.144 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: twitter_tokafka,native
+13:36:03.956 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=38b66a2b-6dc5-3c21-9217-ba3f08f31a4f
+13:36:04.692 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+13:36:04.710 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+13:36:04.711 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:36:04.712 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+13:36:04.925 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:36:04.926 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3688 ms
+13:36:05.634 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:36:07.048 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2f7932a0-76ea-4f22-8592-4e42f1aca1e8
+
+13:36:07.252 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3686389, org.springframework.security.web.context.SecurityContextPersistenceFilter@44d43cc9, org.springframework.security.web.header.HeaderWriterFilter@2262f0d8, org.springframework.security.web.csrf.CsrfFilter@4a6a6a69, org.springframework.security.web.authentication.logout.LogoutFilter@b3fc6d8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@738a815c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@12e5d3e1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@71e2c6d8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ae3235e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@656ec00d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56e5c8fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4228f269, org.springframework.security.web.session.SessionManagementFilter@59e082f8, org.springframework.security.web.access.ExceptionTranslationFilter@2bdb5e0f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cdf221a]
+13:36:08.003 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+13:36:08.033 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+13:36:08.058 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+13:36:08.106 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 8.241 seconds (JVM running for 9.159)
+13:36:25.366 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:36:25.367 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:36:25.371 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+13:36:38.388 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+13:39:41.736 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:39:47.781 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+13:39:47.897 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 23560 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+13:39:47.905 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: twitter_tokafka,native
+13:39:50.879 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1e213ec8-c5eb-3996-b00b-ece75fc6663c
+13:39:51.664 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+13:39:51.729 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+13:39:51.730 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:39:51.731 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+13:39:52.184 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:39:52.187 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3986 ms
+13:39:52.986 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:39:53.473 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'managementSecurityFilterChain' defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/servlet/ManagementWebSecurityAutoConfiguration.class]: Unsatisfied dependency expressed through method 'managementSecurityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+13:39:53.477 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:39:53.483 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:39:53.510 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:39:53.541 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method managementSecurityFilterChain in org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+13:40:10.608 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+13:40:10.701 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 23565 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+13:40:10.717 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: twitter_tokafka,native
+13:40:14.068 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=38b66a2b-6dc5-3c21-9217-ba3f08f31a4f
+13:40:14.845 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+13:40:14.865 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+13:40:14.865 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:40:14.866 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+13:40:15.036 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:40:15.036 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4167 ms
+13:40:15.711 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:40:16.101 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 85a279e2-ddd6-466b-b47d-6d5dfdbba66d
+
+13:40:16.231 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ae3235e, org.springframework.security.web.context.SecurityContextPersistenceFilter@59e082f8, org.springframework.security.web.header.HeaderWriterFilter@2bdb5e0f, org.springframework.security.web.csrf.CsrfFilter@734fbae3, org.springframework.security.web.authentication.logout.LogoutFilter@349f0ca4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1736c1e4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@66f2ec1c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46b6701e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@9d99851, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44d43cc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ed25612, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3686389, org.springframework.security.web.session.SessionManagementFilter@2262f0d8, org.springframework.security.web.access.ExceptionTranslationFilter@3a588b5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44fb6ebd]
+13:40:16.680 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+13:40:16.702 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+13:40:16.725 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+13:40:16.749 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 7.565 seconds (JVM running for 8.538)
+13:40:39.655 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:40:39.656 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:40:39.658 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+13:41:01.287 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+13:41:22.035 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+15:25:47.447 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+15:26:07.447 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+15:26:18.447 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+15:27:25.111 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+15:41:55.053 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:42:06.127 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+15:42:06.487 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 24386 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+15:42:06.506 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: twitter_tokafka,native
+15:42:10.758 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b4077411-b6c9-35e0-a969-074c471f817d
+15:42:10.856 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+15:42:10.925 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+15:42:10.926 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+15:42:10.926 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+15:42:10.926 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+15:42:10.927 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+15:42:10.928 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+15:42:10.928 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+15:42:10.928 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configServerClient [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+15:42:10.929 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+15:42:10.929 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+15:42:10.929 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+15:42:11.067 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+15:42:12.266 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+15:42:12.287 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+15:42:12.299 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:42:12.300 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+15:42:12.823 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:42:12.824 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5998 ms
+15:42:15.108 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:42:16.272 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8670c048-871f-44c3-9840-67f6ea3ab5bf
+
+15:42:16.713 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@754de353, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eeee124, org.springframework.security.web.header.HeaderWriterFilter@38c10190, org.springframework.security.web.csrf.CsrfFilter@67afe909, org.springframework.security.web.authentication.logout.LogoutFilter@26ffd2c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@259195fe, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d28c214, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ee2ae9a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f39269d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d1c52f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3095d401, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58b97c15, org.springframework.security.web.session.SessionManagementFilter@2a7ebe07, org.springframework.security.web.access.ExceptionTranslationFilter@43deba42, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4597e6e3]
+15:42:17.553 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+15:42:17.564 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+15:42:18.017 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+15:42:18.102 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+15:42:18.151 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+15:42:18.217 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 15.121 seconds (JVM running for 17.562)
+15:42:38.824 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:42:38.828 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:42:38.840 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms

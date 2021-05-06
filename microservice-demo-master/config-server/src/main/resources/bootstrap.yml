@@ -13,7 +13,11 @@ spring:
           clone-on-start: true
         bootstrap: true
     fail-fast: true
-    security:
-      user:
-        name: admin
-        password: password
+  security:
+    user:
+      name: admin
+      password: ENC(l7R3uUSG3Mk2uKJAy8u4oFYc1shqpKYr4ZwLl2GpnJfp+1Yad2E4dXq+dzqtsAkp)
+
+jasypt:
+  encrypto:
+    password

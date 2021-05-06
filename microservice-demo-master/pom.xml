@@ -9,7 +9,8 @@
 		<module>kafka</module>
 		<module>common-config</module>
         <module>config-server</module>
-    </modules>
+		<module>playground</module>
+	</modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -35,6 +36,7 @@
 		<spring-aspects.version>5.3.6</spring-aspects.version>
 		<spring-cloud-config-server.version>3.0.3</spring-cloud-config-server.version>
 		<spring-cloud-dependencies.version>Hoxton.SR11</spring-cloud-dependencies.version>
+		<jasypt-spring-boot-starter.version>3.0.3</jasypt-spring-boot-starter.version>
 	</properties>
 	<repositories>
 		<repository>
@@ -115,6 +117,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 			<version>${spring-cloud-config-server.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.ulisesbocchio</groupId>
+			<artifactId>jasypt-spring-boot-starter</artifactId>
+			<version>${jasypt-spring-boot-starter.version}</version>
 		</dependency>
 
 		<dependency>
