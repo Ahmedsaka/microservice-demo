@@ -7,8 +7,13 @@ spring:
         git:
 #          uri: file://Users/ahmed.saka/Documents/microservice-demo-master/config-server-repository/
           uri:  https://github.com/Ahmedsaka/spring-cloud-config-server-repo.git
+          default-label: main
           username: ahmedsaka
-          password: a1h1m1e1d1.
+          password: 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
           clone-on-start: true
         bootstrap: true
     fail-fast: true
+    security:
+      user:
+        name: admin
+        password: password

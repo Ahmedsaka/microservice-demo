@@ -231,3 +231,97 @@ If you are using the git profile, you need to set a Git URI in your configuratio
 08:02:08.802 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
 08:02:09.017 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
 08:02:09.857 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:38:02.285 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+11:38:02.313 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 22179 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+11:38:02.315 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: native
+11:38:05.837 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f7713404-3bcd-34c5-af70-8ee0f97428d4
+11:38:06.575 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+11:38:06.591 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+11:38:06.592 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:38:06.593 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+11:38:06.811 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:38:06.811 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4386 ms
+11:38:07.727 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:38:08.760 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:38:08.796 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+11:38:08.828 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+11:38:08.864 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 8.238 seconds (JVM running for 9.452)
+11:38:34.938 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:38:34.939 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:38:34.942 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+11:38:35.157 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:38:35.467 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:43:15.666 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:43:15.813 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:44:07.109 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:44:07.243 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:49:59.970 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:50:35.395 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+11:54:14.056 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:13:07.886 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:13:23.702 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+12:13:23.924 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 22623 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+12:13:23.930 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: twitter_tokafka
+12:13:27.656 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a6d2fb1d-b4b6-3f23-80eb-ab1437f62d58
+12:13:28.495 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+12:13:28.531 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+12:13:28.535 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:13:28.536 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+12:13:28.832 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:13:28.833 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4640 ms
+12:13:29.925 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:13:31.581 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configServerHealthIndicator' defined in class path resource [org/springframework/cloud/config/server/config/EnvironmentRepositoryConfiguration.class]: Unsatisfied dependency expressed through method 'configServerHealthIndicator' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.config.server.config.CompositeConfiguration': Unsatisfied dependency expressed through method 'setEnvironmentRepos' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: You need to configure a uri for the git repository.
+12:13:31.584 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:13:31.598 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:13:31.651 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:13:31.706 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you are using a native profile and have spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+12:14:01.140 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+12:14:01.397 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 12.0.2 on macs-MacBook-Pro.local with PID 22631 (/Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master/config-server/target/classes started by mac in /Users/ahmedsaka/Documents/microservice-demo/microservice-demo-master)
+12:14:01.414 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: twitter_tokafka,native
+12:14:06.136 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f7713404-3bcd-34c5-af70-8ee0f97428d4
+12:14:06.982 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+12:14:07.002 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+12:14:07.003 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:14:07.004 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+12:14:07.281 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:14:07.282 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5680 ms
+12:14:08.294 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:14:09.665 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+12:14:09.724 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+12:14:09.764 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+12:14:09.821 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 10.51 seconds (JVM running for 11.836)
+12:14:19.188 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:14:19.190 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:14:19.204 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+12:14:19.376 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:14:37.220 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:14:54.355 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:17:25.213 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:18:24.406 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:20:30.249 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:20:30.419 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:20:48.080 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:20:51.880 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:21:18.571 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:21:18.687 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:21:30.919 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:21:54.914 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:21:55.061 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:22:06.987 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:22:09.441 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+12:22:10.114 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'

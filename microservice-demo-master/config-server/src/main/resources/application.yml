@@ -3,7 +3,7 @@ server:
 
 spring:
   profiles:
-    active: native
+    active: twitter_tokafka, native
 
 logging:
   level:
