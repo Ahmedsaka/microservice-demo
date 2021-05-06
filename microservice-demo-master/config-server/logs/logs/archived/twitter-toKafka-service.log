@@ -211,3 +211,23 @@ If you are using the git profile, you need to set a Git URI in your configuratio
 11:27:51.318 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
 11:27:51.413 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
 11:29:37.449 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+08:00:05.648 [main] INFO  i.m.m.demo.server.ConfigServer - Starting ConfigServer using Java 13.0.2 on ISW-ENGR-AS with PID 7284 (C:\Users\ahmed.saka\Documents\microservice-demo-master\config-server\target\classes started by ahmed.saka in C:\Users\ahmed.saka\Documents\microservice-demo-master)
+08:00:05.662 [main] INFO  i.m.m.demo.server.ConfigServer - The following profiles are active: native
+08:00:05.824 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+08:00:11.351 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f7713404-3bcd-34c5-af70-8ee0f97428d4
+08:00:14.827 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+08:00:14.857 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:00:14.859 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:00:14.860 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+08:00:16.361 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:00:16.363 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10305 ms
+08:00:17.932 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+08:00:25.582 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+08:00:25.653 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:00:27.406 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+08:00:31.885 [main] INFO  i.m.m.demo.server.ConfigServer - Started ConfigServer in 36.149 seconds (JVM running for 43.692)
+08:02:08.797 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:02:08.799 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:02:08.802 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+08:02:09.017 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
+08:02:09.857 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [application.yml]' via location 'classpath:/'
